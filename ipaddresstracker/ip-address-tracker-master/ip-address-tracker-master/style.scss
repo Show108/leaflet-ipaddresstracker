@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.header{
+    background-image: url(/ip-address-tracker-master/images/pattern-bg.png);
+    height: 300px;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.top{
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    color: hsl(0, 0%, 17%);
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+}
+
+.arrowicon{
+    position: absolute;
+    right: 530px;
+    top: 127px;
+    background-color: #000;
+    padding: 11px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.container{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    
+}
+
+.innercontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+}
+
+.one{
+    border-right: 1px solid hsl(0, 0%, 59%);
+    padding-right: 100px;
+}
+.two{
+    border-right: 1px solid hsl(0, 0%, 59%);
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.three{
+    border-right: 1px solid hsl(0, 0%, 59%);
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.four{
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.heading{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 59%);
+    font-weight: 700;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.base{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsla(0, 0%, 0%, 0.9);
+    margin-top: -10px;
+}
+
+
+div #map{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+}
+
